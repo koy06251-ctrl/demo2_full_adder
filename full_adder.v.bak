@@ -1,0 +1,35 @@
+/*
+==========================================================
+                       FULL ADDER
+==========================================================
+Description: Full Adder using gate-level modeling.
+             
+Design Engineer: 
+	Harold A. Perez
+	
+	Date:
+	10 April, 2026
+==========================================================
+
+==========================================================
+*/
+
+module demo2_FA(sum, cout, A, B, cin);
+    
+    // ports
+    input A, B, cin;
+    output sum, cout;
+    
+    // nets
+    wire w1, w2, w3, w4;
+    
+    // sum 
+    xor u1(w1, A, B);
+    xor u2(sum, w1, cin);
+    
+    // cout
+    and u3(w2, A, B);
+    and u4(w3, w1, cin);
+    or  u5(cout, w2, w3);
+    
+endmodule
