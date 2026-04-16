@@ -1,16 +1,12 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /testbench/dut/A
-add wave -noupdate /testbench/dut/B
-add wave -noupdate /testbench/dut/cin
-add wave -noupdate /testbench/dut/sum
-add wave -noupdate /testbench/dut/cout
-add wave -noupdate /testbench/dut/w1
-add wave -noupdate /testbench/dut/w2
-add wave -noupdate /testbench/dut/w3
-add wave -noupdate /testbench/dut/w4
+add wave -noupdate /testbench/A
+add wave -noupdate /testbench/B
+add wave -noupdate /testbench/cin
+add wave -noupdate /testbench/sum
+add wave -noupdate /testbench/cout
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {268 ps} 0}
+WaveRestoreCursors {{Cursor 1} {434 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
@@ -26,4 +22,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {0 ps} {90 ps}
+WaveRestoreZoom {0 ps} {42 ps}
