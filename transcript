@@ -1,0 +1,27 @@
+# Compile of FAtestbench.v was successful.
+# Compile of full_adder.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of FAtestbench.v was successful.
+# Compile of full_adder.v was successful.
+# 2 compiles, 0 failed with no errors.
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+# Compile of FAtestbench.v was successful.
+# Compile of full_adder.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 09:05:37 on Apr 16,2026
+# Loading work.testbench
+# Loading work.full_adder
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+run -all
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/FPGA_demo/T09/demo2_full_adder/wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/FPGA_demo/T09/demo2_full_adder/wave.do
+# End time: 09:07:07 on Apr 16,2026, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 8

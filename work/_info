@@ -10,7 +10,7 @@ z2
 cModel Technology
 dC:/intelFPGA/20.1
 vfull_adder
-Z0 !s110 1776129032
+Z0 !s110 1776301532
 !i10b 1
 !s100 O628ZRE`EQOM>RIKEzO5>0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ Z3 dC:/FPGA_demo/T09/demo2_full_adder
 w1776128706
 8C:/FPGA_demo/T09/demo2_full_adder/full_adder.v
 FC:/FPGA_demo/T09/demo2_full_adder/full_adder.v
-!i122 2
+!i122 9
 L0 17 19
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1776129032.000000
+Z5 !s108 1776301532.000000
 !s107 C:/FPGA_demo/T09/demo2_full_adder/full_adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_demo/T09/demo2_full_adder/full_adder.v|
 !i113 1
@@ -43,7 +43,7 @@ R3
 w1776128824
 8C:/FPGA_demo/T09/demo2_full_adder/FAtestbench.v
 FC:/FPGA_demo/T09/demo2_full_adder/FAtestbench.v
-!i122 3
+!i122 8
 L0 3 33
 R4
 r1
