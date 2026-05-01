@@ -2,11 +2,11 @@ onerror {resume}
 quietly WaveActivateNextPane {} 0
 add wave -noupdate /testbench/A
 add wave -noupdate /testbench/B
-add wave -noupdate /testbench/cin
-add wave -noupdate /testbench/sum
-add wave -noupdate /testbench/cout
+add wave -noupdate /testbench/Cin
+add wave -noupdate /testbench/Sum
+add wave -noupdate /testbench/Cout
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {434 ps} 0}
+WaveRestoreCursors {{Cursor 1} {158 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100

@@ -3,10 +3,10 @@
 # 2 compiles, 0 failed with no errors.
 vsim work.testbench
 # vsim work.testbench 
-# Start time: 10:50:41 on Apr 16,2026
+# Start time: 00:54:49 on Apr 30,2026
 # Loading work.testbench
 # Loading work.full_adder
 run
 write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/FPGA_demo/T09/demo2_full_adder/wave.do
-# End time: 10:57:55 on Apr 16,2026, Elapsed time: 0:07:14
-# Errors: 0, Warnings: 3
+# End time: 00:55:20 on Apr 30,2026, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 7

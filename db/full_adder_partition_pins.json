@@ -4,11 +4,11 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "sum",
+					"name" : "Sum",
 					"strict" : false
 				},
 				{
-					"name" : "cout",
+					"name" : "Cout",
 					"strict" : false
 				},
 				{
@@ -20,7 +20,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "cin",
+					"name" : "Cin",
 					"strict" : false
 				}
 			]

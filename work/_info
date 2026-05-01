@@ -10,48 +10,48 @@ z2
 cModel Technology
 dC:/intelFPGA/20.1
 vfull_adder
-!s110 1776307834
+Z0 !s110 1777481666
 !i10b 1
-!s100 FdS3][=XKTWPSBC@_<a@^0
-Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
-ILzMYB=?dPMH662;GCJ^l=1
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/FPGA_demo/T09/demo2_full_adder
-w1776307404
+!s100 9VKi@^5lZl@;<ml:7ngD^1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I5B0:ThcZ<ELHAl62b2>=f1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/FPGA_demo/T09/demo2_full_adder
+w1777481288
 8C:/FPGA_demo/T09/demo2_full_adder/full_adder.v
 FC:/FPGA_demo/T09/demo2_full_adder/full_adder.v
-!i122 15
-L0 17 12
-Z3 OV;L;2020.1;71
+!i122 19
+L0 38 10
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1776307834.000000
+Z5 !s108 1777481666.000000
 !s107 C:/FPGA_demo/T09/demo2_full_adder/full_adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_demo/T09/demo2_full_adder/full_adder.v|
 !i113 1
-Z4 o-work work
-Z5 tCvgOpt 0
+Z6 o-work work
+Z7 tCvgOpt 0
 vtestbench
-!s110 1776307833
-!i10b 1
-!s100 @Sbo]k:o1Rk8C2hA2P]2Y2
 R0
-IfXPHoh@0^QZ7PGDR4NDHD2
+!i10b 1
+!s100 :L6@5;496L><ZQDR[MEPO0
 R1
+I^AOCF^gK8BYlzPNEQbI]O2
 R2
-w1776307760
+R3
+w1777481104
 8C:/FPGA_demo/T09/demo2_full_adder/FAtestbench.v
 FC:/FPGA_demo/T09/demo2_full_adder/FAtestbench.v
-!i122 14
-L0 3 33
-R3
+!i122 18
+L0 41 34
+R4
 r1
 !s85 0
 31
-!s108 1776307833.000000
+R5
 !s107 C:/FPGA_demo/T09/demo2_full_adder/FAtestbench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_demo/T09/demo2_full_adder/FAtestbench.v|
 !i113 1
-R4
-R5
+R6
+R7

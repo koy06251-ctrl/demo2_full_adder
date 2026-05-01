@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at full_adder.v(42): object "Cout" differs only in case from object "cout" in the same scope File: C:/FPGA_demo/T09/demo2_full_adder/full_adder.v Line: 42

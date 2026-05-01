@@ -26,3 +26,35 @@ module full_adder(sum, cout, A, B, cin);
 				assign cout = (A & B) | (cin & ( A ^ B));
     
 endmodule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
